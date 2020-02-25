@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".fragment.AboutFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:text="@string/aliyyulman_jihan"
+                android:layout_width="150dp"
+                android:layout_height="29dp"
+                android:id="@+id/textView01"
+                android:layout_marginTop="248dp"
+                app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="150dp" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp" app:layout_constraintHorizontal_bias="1.0"/>
+        <TextView
+                android:text="@string/_6706184070"
+                android:layout_width="150dp"
+                android:layout_height="29dp"
+                android:id="@+id/textView02"
+                android:layout_marginTop="52dp"
+                app:layout_constraintTop_toTopOf="@id/textView01" app:layout_constraintStart_toStartOf="@id/textView01"
+                android:layout_marginStart="150dp" app:layout_constraintEnd_toEndOf="@id/textView01"
+                android:layout_marginEnd="8dp" app:layout_constraintHorizontal_bias="0.949"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
